@@ -1,6 +1,6 @@
 {
   "vars": {
-    "@gray-base": "#00f",
+    "@gray-base": "#000",
     "@gray-darker": "lighten(@gray-base, 13.5%)",
     "@gray-dark": "lighten(@gray-base, 20%)",
     "@gray": "lighten(@gray-base, 33.5%)",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=18b01997f4c8ef8bca26"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=3af4d418b2a232f1d6c6"
 }
