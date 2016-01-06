@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="style.css">
 		<noscript><link rel="stylesheet" href="noscript.css"></noscript>
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-		<title>ADZ Green Youth - {{ page.title }}</title>
+		<title>ADZ Green Youth - Contact</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
@@ -32,14 +32,36 @@
 				</div>
 				<div class="collapse navbar-collapse" id="main-menu">
 					<ul class="nav navbar-nav navbar-right">
-						<li{% if page.title == 'Home' %} class="active"{% endif %}><a href="index.html">Home</a></li>
-						<li{% if page.title == 'Blog' %} class="active"{% endif %}><a href="blog.html">Blog</a></li>
-						<li{% if page.title == 'Campaigns' %} class="active"{% endif %}><a href="campaigns.html">Campaigns</a></li>
-						<li{% if page.title == 'Events' %} class="active"{% endif %}><a href="events.html">Events</a></li>
-						<li{% if page.title == 'Contact' %} class="active"{% endif %}><a href="contact.html">Contact</a></li>
-						<li{% if page.title == 'About' %} class="active"{% endif %}><a href="about.html">About</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="campaigns.html">Campaigns</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li class="active"><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 		<div class="container">
+<div class="well">
+	<h1>Contact us</h1>
+	<p>Have a question? Drop us a line!</p>
+	<form>
+		<div class="form-group">
+			<label for="name">Your name</label>
+			<input type="text" class="form-control" id="name" name="name">
+		</div>
+		<div class="form-group">
+			<label for="email">Your email</label>
+			<input type="email" class="form-control" id="email" name="email">
+		</div>
+		<div class="form-group">
+			<label for="message">Your message</label>
+			<textarea class="form-control" id="message" name="message"></textarea>
+		</div>
+		<input type="submit" class="btn btn-primary" name="submit" value="Send">
+	</form>
+</div>
+		</div>
+	</body>
+</html>
